@@ -1,0 +1,12 @@
+#$ TITLE: muchzill4's modes
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: MODES
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: modes, freestyle
+#$ AUTHOR: muchzill4 (Bartek Mucha)
+
+#$ PARSER: MARKED
+
+aux 0 0 0 1700 2100 0 0
+aux 1 13 3 1700 2100 0 0
+aux 2 35 2 1700 2100 0 0
