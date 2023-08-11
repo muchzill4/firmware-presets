@@ -1,0 +1,12 @@
+#$ TITLE: muchzill4's rc link settings 
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RC_LINK
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: elrs, rc link, rc 500hz
+#$ AUTHOR: muchzill4 (Bartek Mucha)
+
+#$ PARSER: MARKED
+
+map AETR1234
+feature TELEMETRY
+set rc_smoothing = OFF
