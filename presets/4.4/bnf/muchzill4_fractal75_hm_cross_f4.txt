@@ -11,6 +11,7 @@
 
 # ports
 serial 0 2048 115200 57600 0 115200
+serial 1 64 115200 57600 0 115200
 
 
 # configuration
