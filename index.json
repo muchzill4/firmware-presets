@@ -265,6 +265,7 @@
       "basher",
       "basic",
       "betaflight",
+      "betafpv",
       "blackbox",
       "BMS",
       "BMSThomas",
@@ -3641,7 +3642,26 @@
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/bnf/muchzill4_fractal75_crossf4.txt",
+      "fullPath": "presets/4.4/bnf/muchzill4_fractal75_betafpv_f4.txt",
+      "hash": "5e6fd62260dc08675e716215965619b8d50b2e6b2136cad97de97e51f058f563",
+      "title": "muchzill4's 75mm betafpv f4 fractal 75 settings",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "whoop",
+        "75mm",
+        "fractal",
+        "betafpv",
+        "f4"
+      ],
+      "author": "muchzill4 (Bartek Mucha)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/bnf/muchzill4_fractal75_hm_cross_f4.txt",
       "hash": "e17de6dfd0e78a67b0fd864e61e7f2c350007c9d3fc070d9d9f5212e8c7fbbaf",
       "title": "muchzill4's 75mm cross f4 fractal 75 settings",
       "firmware_version": [
@@ -3660,7 +3680,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/bnf/muchzill4_fractal75_diamond.txt",
+      "fullPath": "presets/4.4/bnf/muchzill4_fractal75_hm_diamond_f4.txt",
       "hash": "33b5998213989dd5215eb5c970d24a572daeeb8a1ee6476af32462b4e9f4f545",
       "title": "muchzill4's 75mm diamond f4 fractal 75 settings",
       "firmware_version": [
