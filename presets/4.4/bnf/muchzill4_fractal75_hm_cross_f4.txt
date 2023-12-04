@@ -30,7 +30,6 @@ beacon RX_SET
 set vbat_max_cell_voltage = 440
 set vbat_min_cell_voltage = 290
 set vbat_duration_for_warning = 20
-set ibata_scale = 1175
 
 
 # pid tuning
