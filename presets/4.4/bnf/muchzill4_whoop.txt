@@ -107,9 +107,7 @@ aux 3 35 2 1700 2100 0 0
 # -- osd --
 set vcd_video_system = PAL
 set osd_warn_bitmask = 7907
-set osd_rssi_dbm_alarm = -100
-set osd_link_quality_pos = 2515
-set osd_rssi_dbm_pos = 65
+set osd_link_quality_pos = 2514
 set osd_warnings_pos = 14537
-set osd_avg_cell_voltage_pos = 2503
+set osd_avg_cell_voltage_pos = 2502
 set osd_stat_bitmask = 9044132
