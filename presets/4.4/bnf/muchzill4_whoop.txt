@@ -67,7 +67,7 @@ set feedforward_averaging = 2_POINT
 set feedforward_smooth_factor = 65
 
 set thrust_linear = 20
-set dyn_idle_min_rpm = 60
+set dshot_idle_value = 600
 
 set simplified_gyro_filter_multiplier = 120
 set simplified_dterm_filter_multiplier = 120
