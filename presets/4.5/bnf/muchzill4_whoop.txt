@@ -1,0 +1,69 @@
+#$ TITLE: muchzill4's whoop
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: BNF
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: whoop, 75mm, 65mm
+#$ AUTHOR: muchzill4 (Bartek Mucha)
+#$ DESCRIPTION: Whoop is the way
+
+
+# -- configuration --
+set pid_process_denom = 1 # required for bmi gyros and dynamic notch
+
+beacon RX_LOST
+beacon RX_SET
+
+
+# -- battery --
+set vbat_max_cell_voltage = 440
+set vbat_min_cell_voltage = 310
+set vbat_duration_for_warning = 20
+
+
+# -- rates --
+set roll_rc_rate = 15
+set pitch_rc_rate = 15
+set yaw_rc_rate = 15
+set roll_expo = 30
+set pitch_expo = 30
+set yaw_expo = 30
+set roll_srate = 85
+set pitch_srate = 85
+set yaw_srate = 85
+
+
+# -- pid tuning and filters --
+#$ OPTION BEGIN (CHECKED): Bosch (BMI) gyro - experimantal
+#$ OPTION END
+#$ INCLUDE: presets/4.5/tune/karate/karate_brushless_whoop.txt
+
+set yaw_motors_reversed = ON
+set dshot_idle_value = 600
+
+
+# -- rx --
+#$ OPTION BEGIN (CHECKED): Freestyle
+#$ OPTION END
+#$ OPTION BEGIN (CHECKED): Serial, separate Rx
+#$ OPTION END
+#$ OPTION BEGIN (CHECKED): Single Cell values
+#$ OPTION END
+#$ INCLUDE: presets/4.3/rc_link/elrs_500hz.txt
+feature TELEMETRY
+set rc_smoothing = OFF
+
+
+# -- modes --
+aux 0 0 0 1700 2100 0 0
+aux 1 13 3 1700 2100 0 0
+aux 2 26 1 1700 2100 0 0
+aux 3 35 2 1700 2100 0 0
+
+
+# -- osd --
+set vcd_video_system = PAL
+set osd_warn_bitmask = 7907
+set osd_link_quality_pos = 2514
+set osd_warnings_pos = 14537
+set osd_avg_cell_voltage_pos = 2502
+set osd_stat_bitmask = 9044132
