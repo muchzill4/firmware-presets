@@ -18,6 +18,7 @@ beacon RX_SET
 set vbat_max_cell_voltage = 440
 set vbat_min_cell_voltage = 310
 set vbat_duration_for_warning = 20
+set vbat_warning_cell_voltage = 340
 
 
 # -- rates --
@@ -31,11 +32,6 @@ set roll_srate = 85
 set pitch_srate = 85
 set yaw_srate = 85
 
-
-# -- pid tuning and filters --
-#$ OPTION BEGIN (CHECKED): Bosch (BMI) gyro - experimantal
-#$ OPTION END
-#$ INCLUDE: presets/4.5/tune/karate/karate_brushless_whoop.txt
 
 set yaw_motors_reversed = ON
 set dshot_idle_value = 600
@@ -67,3 +63,9 @@ set osd_link_quality_pos = 2514
 set osd_warnings_pos = 14537
 set osd_avg_cell_voltage_pos = 2502
 set osd_stat_bitmask = 9044132
+
+# -- minimal osd --
+#$ OPTION BEGIN (UNCHECKED): Flashed with minimal OSD mod
+set osd_link_quality_pos = 2515
+set osd_avg_cell_voltage_pos = 2503
+#$ OPTION END
