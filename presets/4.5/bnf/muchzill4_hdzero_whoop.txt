@@ -62,11 +62,13 @@ vtx 2 1 0 0 1 1700 2100
 
 
 # -- osd --
+set osd_stat_bitmask = 1074399012
+set osd_warnings_pos = 14580
 set osd_link_quality_pos = 2590
-set osd_avg_cell_voltage_pos = 2574
+set osd_avg_cell_voltage_pos = 2575
 
 # -- minimal osd --
 #$ OPTION BEGIN (UNCHECKED): Flashed with minimal OSD mod
-set osd_link_quality_pos = 2515
-set osd_avg_cell_voltage_pos = 2503
+set osd_link_quality_pos = 2590
+set osd_avg_cell_voltage_pos = 2576
 #$ OPTION END

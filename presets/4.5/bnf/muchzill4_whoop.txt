@@ -61,7 +61,7 @@ set osd_warn_bitmask = 7907
 set osd_link_quality_pos = 2514
 set osd_warnings_pos = 14537
 set osd_avg_cell_voltage_pos = 2502
-set osd_stat_bitmask = 9044132
+set osd_stat_bitmask = 1074399012
 
 # -- minimal osd --
 #$ OPTION BEGIN (UNCHECKED): Flashed with minimal OSD mod
