@@ -1,18 +1,13 @@
-#$ TITLE: muchzill4's whoop
+#$ TITLE: muchzill4's HDZero whoop
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: BNF
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: whoop, 75mm, 65mm
+#$ KEYWORDS: hdzero, whoop, 75mm, 65mm
 #$ AUTHOR: muchzill4 (Bartek Mucha)
 #$ DESCRIPTION: Whoop is the way
 
-
-# -- configuration --
-set pid_process_denom = 1 # required for bmi gyros and dynamic notch
-
 beacon RX_LOST
 beacon RX_SET
-
 
 # -- battery --
 set vbat_max_cell_voltage = 440
@@ -40,7 +35,7 @@ set dshot_idle_value = 600
 # -- rx --
 #$ OPTION BEGIN (CHECKED): Freestyle
 #$ OPTION END
-#$ OPTION BEGIN (CHECKED): Serial, separate Rx
+#$ OPTION BEGIN (CHECKED): SPI, on the FC
 #$ OPTION END
 #$ OPTION BEGIN (CHECKED): Single Cell values
 #$ OPTION END
@@ -55,13 +50,20 @@ aux 1 13 3 1700 2100 0 0
 aux 3 35 2 1700 2100 0 0
 
 
+# -- vtx --
+#$ OPTION BEGIN (CHECKED): All VTXs (except unlocked Freestyle and TX5M.1)
+#$ OPTION END
+#$ OPTION BEGIN (CHECKED): UART 1 
+#$ OPTION END
+#$ INCLUDE: presets/4.5/vtx/HDZero.txt
+vtx 0 1 0 0 3 900 1300
+vtx 1 1 0 0 1 1300 1700
+vtx 2 1 0 0 1 1700 2100
+
+
 # -- osd --
-set vcd_video_system = PAL
-set osd_warn_bitmask = 7907
-set osd_link_quality_pos = 2514
-set osd_warnings_pos = 14537
-set osd_avg_cell_voltage_pos = 2502
-set osd_stat_bitmask = 9044132
+set osd_link_quality_pos = 2590
+set osd_avg_cell_voltage_pos = 2574
 
 # -- minimal osd --
 #$ OPTION BEGIN (UNCHECKED): Flashed with minimal OSD mod

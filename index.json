@@ -5746,8 +5746,26 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.5/bnf/muchzill4_hdzero_whoop.txt",
+      "hash": "9311bdb7977a7d28abdce8f2d089ab948ca6b5a6aabbbecc331464a7b4466d26",
+      "title": "muchzill4's HDZero whoop",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "hdzero",
+        "whoop",
+        "75mm",
+        "65mm"
+      ],
+      "author": "muchzill4 (Bartek Mucha)",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/bnf/muchzill4_whoop.txt",
-      "hash": "aabb3fda73dfd37d8b08934aa24b93cddf8266cd689c935ecbc092181bbff1e5",
+      "hash": "599565e9f2184a7a7d495e667bbb2dc49c4e900982d05daf824cac88e2721501",
       "title": "muchzill4's whoop",
       "firmware_version": [
         "4.5"
