@@ -33,6 +33,7 @@ set pitch_srate = 85
 set yaw_srate = 85
 
 
+# -- motors --
 set yaw_motors_reversed = ON
 set dshot_idle_value = 600
 
@@ -46,7 +47,6 @@ set dshot_idle_value = 600
 #$ OPTION END
 #$ INCLUDE: presets/4.3/rc_link/elrs_500hz.txt
 feature TELEMETRY
-set rc_smoothing = OFF
 
 
 # -- modes --
