@@ -56,9 +56,6 @@ aux 3 35 2 1700 2100 0 0
 #$ OPTION BEGIN (CHECKED): UART 1 
 #$ OPTION END
 #$ INCLUDE: presets/4.5/vtx/HDZero.txt
-vtx 0 1 0 0 3 900 1300
-vtx 1 1 0 0 1 1300 1700
-vtx 2 1 0 0 1 1700 2100
 
 
 # -- osd --
