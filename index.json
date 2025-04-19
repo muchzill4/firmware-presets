@@ -222,11 +222,13 @@
       "1S",
       "2.5in",
       "2.5W",
+      "20",
       "2022",
       "2023",
       "2024",
       "2024 sliders",
       "20ms",
+      "25",
       "2500mW",
       "250Hz",
       "2in",
@@ -237,13 +239,17 @@
       "3.5",
       "3.5in",
       "3\"",
+      "30",
+      "35",
       "3d",
       "3in",
       "3S",
       "4",
       "4 inch",
       "4\"",
+      "40",
       "4in",
+      "4in1",
       "4S",
       "5",
       "5 In",
@@ -279,7 +285,11 @@
       "Acrobaix",
       "actual",
       "adjustments",
+      "aio",
+      "aio5",
+      "air",
       "air unit",
+      "air75",
       "akk",
       "AlexFPV",
       "analog",
@@ -298,10 +308,12 @@
       "basic",
       "beginner",
       "betaflight",
+      "betafpv",
       "bezerkrc",
       "blackbox",
       "BMS",
       "BMSThomas",
+      "bnf",
       "botgrinder",
       "brushless",
       "Caddx",
@@ -310,6 +322,7 @@
       "Cgo",
       "Chief",
       "chris",
+      "cine",
       "cine25",
       "cine35",
       "cine80",
@@ -338,6 +351,7 @@
       "der_V",
       "diamond",
       "diatone",
+      "diff",
       "Digipick",
       "digital",
       "din",
@@ -392,6 +406,7 @@
       "Headsup",
       "HighKV",
       "hot",
+      "HS5",
       "HV",
       "IllusionFpv",
       "immersion",
@@ -554,8 +569,10 @@
       "tx5m.1",
       "tx800",
       "tyrant",
+      "ul10",
       "ul5",
       "ul7",
+      "ul8",
       "ultra",
       "ultra 1000",
       "ultralite",
@@ -1542,6 +1559,28 @@
       "fullPath": "presets/4.3/rates/SugarK.txt",
       "hash": "ec1e237c4ab6b382554c03c18433195cc82fe0253ffa28a680b55ed25bdf85ab",
       "title": "Sugar k rates",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "RATES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "racing",
+        "rates",
+        "MultiGP",
+        "quaddiction",
+        "tyrant",
+        "sugar k"
+      ],
+      "author": "sugarK",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.3/rates/SugarK_whoop.txt",
+      "hash": "9d805ecc28c5645d0770d31e0d2510e8b6cdc4b8994caa5fa98583e3e09f538a",
+      "title": "Sugar k Whoop rates",
       "firmware_version": [
         "4.3",
         "4.4",
@@ -4424,13 +4463,14 @@
     },
     {
       "fullPath": "presets/4.4/osd/YarosFPV_DJI_O3_OSD.txt",
-      "hash": "d71d7dcccc69bd2c3d411a468b8d17a41bcafc180bf8a067dc6cee804e23017b",
+      "hash": "80332ddac019e46fe7fe34f65ec241b453d511d58e03a57b525288ebe8a376d2",
       "title": "Yaros FPV HD OSD",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "OSD",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "DJI",
         "HD",
@@ -5746,8 +5786,26 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.5/bnf/betafpv_air75.txt",
+      "hash": "8b97e2a35503478d141d5707f3de6baddceff463f1eede4bd3caa3fd51c56075",
+      "title": "BetaFPV Air75 Factory Defaults",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "bnf",
+        "diff",
+        "betafpv",
+        "air75"
+      ],
+      "author": "YarosFPV (Yaroslav Syubayev)",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/bnf/muchzill4_hdzero_whoop.txt",
-      "hash": "07954f560ab600bbc63f8a341ef840a81b355e43cf15f1f680a7838ad412de97",
+      "hash": "87d6cbe8a006d8ef5bbb85b7cbec7a9fe54d30b99d854666e145582c2abafdca",
       "title": "muchzill4's HDZero whoop",
       "firmware_version": [
         "4.5"
@@ -5903,8 +5961,29 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.5/filters/aos_rc/aos_cine20_filters.txt",
+      "hash": "0b85d206dc4e6e4f6374e8ceb72991be9b15f7539c0533e8965997e5c93bcb22",
+      "title": "AOS Cine20 Filters",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter",
+        "filters",
+        "aos",
+        "chris",
+        "rosser",
+        "cine",
+        "20"
+      ],
+      "author": "Chris Rosser",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.5/filters/aos_rc/aos_cine25_filters.txt",
-      "hash": "98aacdb57145e7b9cd2bb57b6fb696e7e53751c5a1ec208d2374e8a8ca47125c",
+      "hash": "5dfe15d044efe1f076db145463a3ad7da6320b0f2d2de941b38d9eeceab3655c",
       "title": "AOS Cine25 Filters",
       "firmware_version": [
         "4.5"
@@ -5917,14 +5996,36 @@
         "aos",
         "chris",
         "rosser",
-        "cine25"
+        "cine",
+        "25"
+      ],
+      "author": "Chris Rosser",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.5/filters/aos_rc/aos_cine30_filters.txt",
+      "hash": "a865ba39ba9c6adc5a1ce4fcb428632e01adc9074841a87dea55da88741f95f9",
+      "title": "AOS Cine30 Filters",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter",
+        "filters",
+        "aos",
+        "chris",
+        "rosser",
+        "cine",
+        "30"
       ],
       "author": "Chris Rosser",
       "priority": 100
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_cine35_filters.txt",
-      "hash": "d23da0b322067d6dfd0326e52658789e6cd4d88be8ba0cc29fcbe90d596b5e23",
+      "hash": "88350d20547e7485172ff9ee4a162130a986a5f7abff8cc6d3ef908b41ac292c",
       "title": "AOS Cine35 Filters",
       "firmware_version": [
         "4.5"
@@ -5937,7 +6038,29 @@
         "aos",
         "chris",
         "rosser",
-        "cine35"
+        "cine",
+        "35"
+      ],
+      "author": "Chris Rosser",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.5/filters/aos_rc/aos_cine40_filters.txt",
+      "hash": "c0efc3ecf653467bc45dac69f51363ff037fb17b4faf2bbe9bbc33d1a190021e",
+      "title": "AOS Cine40 Filters",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter",
+        "filters",
+        "aos",
+        "chris",
+        "rosser",
+        "cine",
+        "40"
       ],
       "author": "Chris Rosser",
       "priority": 100
@@ -5958,6 +6081,26 @@
         "chris",
         "rosser",
         "cine80"
+      ],
+      "author": "Chris Rosser",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.5/filters/aos_rc/aos_hs5_filters.txt",
+      "hash": "0762d1d723438b57cfe40e67c471497d76157093689edb41884497fb03536edc",
+      "title": "AOS HS5 200mph Filters",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "FILTERS",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "filter",
+        "filters",
+        "aos",
+        "chris",
+        "rosser",
+        "HS5"
       ],
       "author": "Chris Rosser",
       "priority": 100
@@ -6004,6 +6147,26 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.5/filters/aos_rc/aos_ul10_filters.txt",
+      "hash": "d08019479b0a15c66c45383a827104e54e934310054bd30ce049c2ede6167ebd",
+      "title": "AOS UL10 Filters",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter",
+        "filters",
+        "aos",
+        "chris",
+        "rosser",
+        "ul10"
+      ],
+      "author": "Chris Rosser",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.5/filters/aos_rc/aos_ul5_filters.txt",
       "hash": "4248ae596b9df2b204ffc60a596baf3b62dc61ab9c1b1b5cf71f35d5d8ca1dc1",
       "title": "AOS UL5 Filters",
@@ -6039,6 +6202,26 @@
         "chris",
         "rosser",
         "ul7"
+      ],
+      "author": "Chris Rosser",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.5/filters/aos_rc/aos_ul8_filters.txt",
+      "hash": "38cbc253ebea2676f213b1d4b22466b676414b2a2f0416e7caa455b7de1bdf01",
+      "title": "AOS UL8 Filters",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter",
+        "filters",
+        "aos",
+        "chris",
+        "rosser",
+        "ul8"
       ],
       "author": "Chris Rosser",
       "priority": 100
@@ -6390,7 +6573,7 @@
     },
     {
       "fullPath": "presets/4.5/osd/sugark_hdzero_osd.txt",
-      "hash": "38ed68d68d4b86b24e152cd3df6f1b9172e5444b7656241f414c3e470b0235e9",
+      "hash": "d3f43e0baad7d2b2331b71b76029b2576f0f73520ac72060f4ec281153a1e8fa",
       "title": "sugarK HDzero OSD",
       "firmware_version": [
         "4.4",
@@ -6406,7 +6589,7 @@
         "sugarK",
         "racing"
       ],
-      "author": "YarosFPV (Yaroslav Syubayev)",
+      "author": "sugarK",
       "priority": 0
     },
     {
@@ -6761,7 +6944,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_65mm_tune.txt",
-      "hash": "3d4ab1ff39a70902bcf256c56f6ee35ac8d95417f3a8b8bea72864ee4438d2b0",
+      "hash": "3b5ed4fda577ab4e83adf0e82d2e6ca7c4499b087b40597d768f3ee1dc6ebb94",
       "title": "65mm Tiny whoop tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6804,8 +6987,30 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.5/tune/aos_rc/aos_cine20_tune.txt",
+      "hash": "bcd67bb6a0adf1cebf162ec8453329df5f753491ccf84f60de1a75a0296fbc92",
+      "title": "AOS Cine20 tune by Chris Rosser",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "cine",
+        "20"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.5/tune/aos_rc/aos_cine25_tune.txt",
-      "hash": "4f3c4d745a9447df6605df1f3a0a98f385d973243a2a736c2fb5f291dfaea761",
+      "hash": "da99c6bc848619fb2b7385d03d441bf106072ecea1897e2e31d1ceff33486e88",
       "title": "AOS Cine25 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6818,7 +7023,30 @@
         "rosser",
         "pid",
         "tune",
-        "cine25"
+        "cine",
+        "25"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/aos_rc/aos_cine30_tune.txt",
+      "hash": "75425f8e770688a1be5a5f1f925ed899c363e060c2c8add348b9d9b51d5281ce",
+      "title": "AOS Cine30 tune by Chris Rosser",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "cine",
+        "30"
       ],
       "author": "Chris Rosser",
       "force_options_review": true,
@@ -6826,7 +7054,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_cine35_tune.txt",
-      "hash": "1c0d793aa2c83ea4a6271eed92b138f53fd4194b8a3ff7a6635aac30da938e2c",
+      "hash": "7e721a41341cefb8192ec93df8aeb32f92e77bda930818c9456a7f004f587a0b",
       "title": "AOS Cine35 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -6840,6 +7068,28 @@
         "pid",
         "tune",
         "cine35"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/aos_rc/aos_cine40_tune.txt",
+      "hash": "c8940d178348526b22cc5a1a40ca4a2ce377f923efd81ec16b7209aaf0d73c54",
+      "title": "AOS Cine40 tune by Chris Rosser",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "cine",
+        "40"
       ],
       "author": "Chris Rosser",
       "force_options_review": true,
@@ -6861,6 +7111,53 @@
         "pid",
         "tune",
         "cine80"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/aos_rc/aos_hdzero_aio5_65mm.txt",
+      "hash": "3ab74a37f2f55329df2fc095166712ec47755dc4f6ba78592db40164881e1c75",
+      "title": "HDZERO AIO5 65mm Whoop tune by Chris Rosser",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "65mm",
+        "tiny",
+        "whoop",
+        "hdzero",
+        "aio",
+        "aio5"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/aos_rc/aos_hs5_tune.txt",
+      "hash": "a8a1ef51a17446c91e6940fd306042c6401b1ebee4a3157627fbec14a0a9842a",
+      "title": "AOS HS5 200mph tune by Chris Rosser",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "HS5"
       ],
       "author": "Chris Rosser",
       "force_options_review": true,
@@ -6910,6 +7207,27 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.5/tune/aos_rc/aos_ul10_tune.txt",
+      "hash": "415dae4e2d6d5298d60891d8d120ef3cda7b631124b7ad44354c25f4b74f2a84",
+      "title": "AOS UL10 tune by Chris Rosser",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "ul10"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.5/tune/aos_rc/aos_ul5_tune.txt",
       "hash": "e760a4049d390838f91aa9b80d783a0c898b53d7d1bbe27616b202fe1d7fe856",
       "title": "AOS UL5 tune by Chris Rosser",
@@ -6946,6 +7264,27 @@
         "pid",
         "tune",
         "ul7"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/aos_rc/aos_ul8_tune.txt",
+      "hash": "14bcaa0535c360393c56d5d628304e669982ee3f322b9648e2cd244f9c63ae28",
+      "title": "AOS UL8 tune by Chris Rosser",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "ul8"
       ],
       "author": "Chris Rosser",
       "force_options_review": true,
@@ -7201,6 +7540,28 @@
         "thicc",
         "loRanger",
         "sliders"
+      ],
+      "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/karate/karate_whoop_late_2024.txt",
+      "hash": "6b64d36ecb7111657f504d13ff8e6e0118f5a2df2c90d6fb79bda9256d30871b",
+      "title": "Karate RACE Whoop late2024",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "karate",
+        "1S",
+        "race",
+        "brushless",
+        "whoop",
+        "65mm",
+        "sugarK",
+        "KarateBrot"
       ],
       "author": "sugarK",
       "priority": 1000000000000
@@ -7806,8 +8167,31 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.5/vtx/BetaFPV_AirFC.txt",
+      "hash": "671e51c4cc16a0cfd5931db75c9addce77b4a4648afcfc63e4d1f9f892ba3032",
+      "title": "BetaFPV Air Brushless FC 4in1 VTX Table",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "vtx table",
+        "vtxtable",
+        "betafpv",
+        "4in1",
+        "air"
+      ],
+      "author": "YarosFPV (Yaroslav Syubayev)",
+      "priority": 1000000
+    },
+    {
       "fullPath": "presets/4.5/vtx/HDZero.txt",
-      "hash": "9050972b8402eddb537077960adba66b448d73d040a9c52e4b1b9867fba234b9",
+      "hash": "36a8d40ec3ee14d918a492d9469865097aebd786d583ade5b49e0acf0d8fdc58",
       "title": "HDZero VTXs",
       "firmware_version": [
         "4.5"

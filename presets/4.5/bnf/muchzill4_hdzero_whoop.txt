@@ -29,6 +29,7 @@ set yaw_srate = 85
 
 
 # -- motors --
+set motor_output_reordering = 1,0,3,2,4,5,6,7
 set yaw_motors_reversed = ON
 set dshot_idle_value = 600
 
@@ -49,6 +50,13 @@ aux 0 0 0 1700 2100 0 0
 aux 1 13 3 1700 2100 0 0
 aux 3 35 2 1700 2100 0 0
 
+
+# -- gyro aio5 --
+set gyro_1_sensor_align = CW270FLIP
+set gyro_1_align_pitch = 1800
+set gyro_1_align_yaw = 2700
+set align_board_roll = 180
+set align_board_yaw = 45
 
 # -- vtx --
 #$ OPTION BEGIN (CHECKED): All VTXs (except unlocked Freestyle and TX5M.1)
