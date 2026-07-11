@@ -5805,7 +5805,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/muchzill4_hdzero_whoop.txt",
-      "hash": "87d6cbe8a006d8ef5bbb85b7cbec7a9fe54d30b99d854666e145582c2abafdca",
+      "hash": "daa6e5be7c9ece5bd1d35fe193f379fec7b742338ac059a77d296eb06c325321",
       "title": "muchzill4's HDZero whoop",
       "firmware_version": [
         "4.5"
@@ -5823,7 +5823,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/muchzill4_whoop.txt",
-      "hash": "e811174876f3467e82844512d1c6be9e7bdee84f0d07f3de4c439c963637dcee",
+      "hash": "11db83e96f4bc3b127cfe8d8f6ab227414c9e765d6eb44b66bd3328450e5d4c5",
       "title": "muchzill4's whoop",
       "firmware_version": [
         "4.5"
