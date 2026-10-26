@@ -439,7 +439,7 @@
       "HD",
       "HD video",
       "HDOSD",
-      "HDZERO",
+      "hdzero",
       "Headsup",
       "HighKV",
       "hot",
@@ -664,6 +664,24 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/2025.12/bnf/muchzill4_hdzero_whoop.txt",
+      "hash": "947737debac11263716e6e1c496f36ef9d28ce07079849aa94d6b54b87f8b54e",
+      "title": "muchzill4's HDZero whoop",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "hdzero",
+        "whoop",
+        "75mm",
+        "65mm"
+      ],
+      "author": "muchzill4 (Bartek Mucha)",
+      "priority": 0
+    },
     {
       "fullPath": "presets/2025.12/filters/aos_rc/aos_3.5_filters.txt",
       "hash": "45fc7920ddd5c8bc8842eea0312662d85963f8aef71db6b2f5d0ab8d2fe3fdb8",
