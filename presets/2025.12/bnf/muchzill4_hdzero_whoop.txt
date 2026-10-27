@@ -1,5 +1,6 @@
 #$ TITLE: muchzill4's HDZero whoop
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 2026.6
 #$ CATEGORY: BNF
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: hdzero, whoop, 75mm, 65mm
@@ -49,11 +50,10 @@ aux 3 35 2 1700 2100 0 0
 
 
 # -- gyro aio5 --
-set gyro_1_sensor_align = CW270FLIP
-set gyro_1_align_pitch = 1800
-set gyro_1_align_yaw = 2700
-set align_board_roll = 180
-set align_board_yaw = 45
+# CRAZYBEEF4SX1280 target gyro is CW90_DEG; equivalent to 4.5 CW270FLIP + board roll 180, yaw 45
+set align_board_roll = 0
+set align_board_pitch = 0
+set align_board_yaw = 225
 
 # -- vtx --
 #$ OPTION BEGIN (CHECKED): All VTXs (except unlocked Freestyle and TX5M.1)

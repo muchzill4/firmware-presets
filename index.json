@@ -309,7 +309,6 @@
       "air",
       "air unit",
       "air65",
-      "air75",
       "akk",
       "AlexFPV",
       "analog",
@@ -336,7 +335,6 @@
       "blackbox",
       "BMS",
       "BMSThomas",
-      "bnf",
       "botgrinder",
       "brushless",
       "Caddx",
@@ -380,7 +378,6 @@
       "detected",
       "diamond",
       "diatone",
-      "diff",
       "Digipick",
       "digital",
       "din",
@@ -666,10 +663,11 @@
   "presets": [
     {
       "fullPath": "presets/2025.12/bnf/muchzill4_hdzero_whoop.txt",
-      "hash": "947737debac11263716e6e1c496f36ef9d28ce07079849aa94d6b54b87f8b54e",
+      "hash": "051da050218c46b3efbd11ca5c38a2e7a71e1e9ce8d15c6c9d2c087647dd6e24",
       "title": "muchzill4's HDZero whoop",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "BNF",
       "status": "EXPERIMENTAL",
@@ -9258,24 +9256,6 @@
       ],
       "author": "Safeer Hussain",
       "force_options_review": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.5/bnf/betafpv_air75.txt",
-      "hash": "8b97e2a35503478d141d5707f3de6baddceff463f1eede4bd3caa3fd51c56075",
-      "title": "BetaFPV Air75 Factory Defaults",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "BNF",
-      "status": "COMMUNITY",
-      "keywords": [
-        "bnf",
-        "diff",
-        "betafpv",
-        "air75"
-      ],
-      "author": "YarosFPV (Yaroslav Syubayev)",
       "priority": 0
     },
     {
